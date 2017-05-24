@@ -1,6 +1,6 @@
 {
   "name": "@alexistessier/es-lint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal ESlint config",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,5 @@
   "devDependencies": {
     "better-assert": "^1.0.2"
   },
-  "changelog": "Add a release script"
+  "changelog": "Add a release script and change version number"
 }
