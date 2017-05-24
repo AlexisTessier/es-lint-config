@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node test.js",
     "prepublish": "npm test",
-    "release": "git commit -a -m 'Release version $npm_package_version => $npm_package_changelog' && npm publish --access=public && git push origin master"
+    "release-commit": "node release-commit 'Release version' $npm_package_version '-' $npm_package_changelog",
+    "release": "npm run release-commit && git add . && git commit -a --file=release-commit.tmp.txt && npm publish --access=public && git push origin master && rm -rf release-commit.tmp.txt"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,5 @@
   "devDependencies": {
     "better-assert": "^1.0.2"
   },
-  "changelog": "Add a release script and change version number"
+  "changelog": "Update the release script"
 }
