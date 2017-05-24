@@ -1,12 +1,12 @@
 {
   "name": "@alexistessier/es-lint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Minimal ESlint config",
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
     "prepublish": "npm test",
-    "release-commit": "node release-commit 'Release version' $npm_package_version '-' $npm_package_changelog",
+    "release-commit": "node release-commit 'Release version' $npm_package_version '-' $npm_package_changelog_last",
     "release": "npm run release-commit && git add . && git commit -a --file=release-commit.tmp.txt && npm publish --access=public && git push origin master && rm -rf release-commit.tmp.txt"
   },
   "repository": {
@@ -27,5 +27,10 @@
   "devDependencies": {
     "better-assert": "^1.0.2"
   },
-  "changelog": "Update the release script"
+  "changelog": {
+    "last": "Update the release script using lastchangelog key instead of changelog (more expressive)",
+    "history": [
+      "Add a release script"
+    ]
+  }
 }
