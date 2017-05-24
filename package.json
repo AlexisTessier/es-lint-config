@@ -1,6 +1,6 @@
 {
   "name": "@alexistessier/es-lint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Minimal ESlint config",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "better-assert": "^1.0.2"
   },
   "changelog": {
-    "last": "Update the release script using lastchangelog key instead of changelog (more expressive)",
+    "last": "Update the release script using changelog.last key instead of changelog (more expressive)",
     "history": [
       "Add a release script"
     ]
