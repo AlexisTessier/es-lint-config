@@ -17,7 +17,10 @@ module.exports = function createConfigurationVariant({
             "default-case": "error",
             "no-fallthrough": "error",
             "no-empty-function": "error",
-            "max-params": ["error", 2],
+
+            //main parameter, options, callback, dependency injection
+            "max-params": ["error", 4],
+            
             "no-lone-blocks": "error",
             "no-unused-expressions": "error"
         }
