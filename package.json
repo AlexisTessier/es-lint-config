@@ -28,8 +28,9 @@
     "better-assert": "^1.0.2"
   },
   "changelog": {
-    "last": "change functions max params from 2 to 4",
+    "last": "no-unused-expressions allowTernary true",
     "history": [
+      "change functions max params from 2 to 4",
       "Update the release script using changelog.last key instead of changelog (more expressive)",
       "Add a release script"
     ]

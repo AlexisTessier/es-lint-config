@@ -22,7 +22,7 @@ module.exports = function createConfigurationVariant({
             "max-params": ["error", 4],
             
             "no-lone-blocks": "error",
-            "no-unused-expressions": "error"
+            "no-unused-expressions": ["error", { "allowTernary": true }]
         }
     }
 }
