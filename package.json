@@ -1,6 +1,6 @@
 {
   "name": "@alexistessier/es-lint-config",
-  "version": "1.2.1",
+  "version": "1.3.1",
   "description": "Minimal ESlint config",
   "main": "index.js",
   "scripts": {
@@ -28,8 +28,9 @@
     "better-assert": "^1.0.2"
   },
   "changelog": {
-    "last": "no-unused-expressions allowTernary true",
+    "last": "add rules",
     "history": [
+      "no-unused-expressions allowTernary true",
       "change functions max params from 2 to 4",
       "Update the release script using changelog.last key instead of changelog (more expressive)",
       "Add a release script"
