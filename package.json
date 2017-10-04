@@ -1,6 +1,6 @@
 {
   "name": "@alexistessier/es-lint-config",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "Minimal ESlint config",
   "main": "index.js",
   "scripts": {
