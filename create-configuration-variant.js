@@ -69,7 +69,6 @@ module.exports = function createConfigurationVariant({
                 "location": "anywhere"
             }],
             "prefer-template": "warn",
-            "no-magic-numbers": "warn",
             "no-alert": "warn",
             "valid-jsdoc": "warn",
             "no-eval": "warn",
