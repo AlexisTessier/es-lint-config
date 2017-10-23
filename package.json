@@ -1,6 +1,6 @@
 {
   "name": "@alexistessier/es-lint-config",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Minimal ESlint config",
   "main": "index.js",
   "scripts": {
@@ -28,8 +28,9 @@
     "better-assert": "1.0.2"
   },
   "changelog": {
-    "last": "remove no-magic-number rule",
+    "last": "add no-undef rule",
     "history": [
+      "remove no-magic-number rule",
       "use fixed dependencies",
       "add rules",
       "no-unused-expressions allowTernary true",

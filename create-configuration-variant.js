@@ -22,6 +22,7 @@ module.exports = function createConfigurationVariant({
             
             "no-lone-blocks": "error",
             "no-unused-expressions": ["error", { "allowTernary": true }],
+            "no-undef": "error",
             "getter-return": "error",
             "no-dupe-args": "error",
             "no-dupe-keys": "error",
