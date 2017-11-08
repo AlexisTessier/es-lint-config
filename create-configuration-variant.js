@@ -63,7 +63,6 @@ module.exports = function createConfigurationVariant({
             "no-unmodified-loop-condition": "error",
             "no-labels": "error",
             "no-useless-concat": "error",
-            "require-await": "error",
             "no-implied-eval": "error",
             "no-invalid-this": "error",
             "no-extra-bind": "error",
