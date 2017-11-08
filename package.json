@@ -1,6 +1,6 @@
 {
   "name": "@alexistessier/es-lint-config",
-  "version": "1.7.0",
+  "version": "2.0.0",
   "description": "Minimal ESlint config",
   "main": "index.js",
   "scripts": {
@@ -28,8 +28,9 @@
     "better-assert": "1.0.2"
   },
   "changelog": {
-    "last": "add no-undef rule",
+    "last": "add parser options to support ecmaVersion 8",
     "history": [
+      "add no-undef rule",
       "remove no-magic-number rule",
       "use fixed dependencies",
       "add rules",

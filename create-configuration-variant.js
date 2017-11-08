@@ -1,10 +1,14 @@
 module.exports = function createConfigurationVariant({
-    envNode = true
+    envNode = true,
+    parserOptionsEcmaVersion = 8
 } = {}) {
     return {
         "env": {
             "es6": true,
             "node": envNode
+        },
+        "parserOptions": {
+            "ecmaVersion": parserOptionsEcmaVersion,
         },
         "rules": {
             "strict": ["error", "global"],

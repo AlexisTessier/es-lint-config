@@ -29,6 +29,7 @@ const envNode = require('./env-node');
 
 assert(typeof envNode === 'object');
 assert(envNode.env.node === true);
+assert(envNode.parserOptions.ecmaVersion === 8);
 
 /*--------------------------*/
 
